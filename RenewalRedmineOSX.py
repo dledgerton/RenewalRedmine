@@ -10,7 +10,7 @@ redmine = Redmine(settings.SITE,
                   )
 
 # Create a workbook and add a worksheet.
-workbook = xlsxwriter.Workbook('c:/users/a62478/Desktop/RedmineData.xlsx')
+workbook = xlsxwriter.Workbook('/Users/davidedgertonjr/desktop/RedmineData.xlsx')
 worksheet = workbook.add_worksheet()
 
 # Add an Excel date format.
